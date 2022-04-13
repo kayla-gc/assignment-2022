@@ -1,0 +1,36 @@
+button {
+  border-radius: 5px;
+  margin: 35px 15px 20px 0px;
+  padding: 7px 15px;
+  position: left;
+  display: inline;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+button.primary {
+  background-color: #2a4359;
+  color: #fff;
+}
+
+button.secondary {
+  border: 3, solid, #2a4359;
+  color: #2a4359;
+  background-color: #fff;
+}
+
+button.primary:hover {
+  background-color: #fff;
+  color: #2a4359;
+}
+
+button.secondary:hover {
+  background-color: #2a4359;
+  color: #fff;
+}
+
+
+
+.list-form{
+  position: relative;
+}
